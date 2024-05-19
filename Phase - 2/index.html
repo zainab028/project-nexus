@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Techy Software's official website">
+    <meta name="keywords" content="Software, Techy Software, Nexus Software, AI">
+    <title>Techy Software</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Techy Software</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to Techy Software</h2>
+            <p>Your solution to advanced AI and software development.</p>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Techy Software is a leading provider of software solutions leveraging AI technology.</p>
+        </div>
+    </section>
+    <section id="products" class="section">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-gallery">
+                <img src="https://static.wixstatic.com/media/3ab104_2ff3f6471ed44e0db45e84a6cafa2aab~mv2.jpg" alt="Nexus Software Product" class="responsive-img">
+                <img src="https://bicontent.businessinsurance.com/97c14ec5-699b-482a-9604-0f4785bb9e35.jpg" alt="AI Technology" class="responsive-img">
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="forms/submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section id="info" class="section">
+        <div class="container">
+            <h2>Information</h2>
+            <form action="forms/submit-info.php" method="POST">
+                <label for="info-name">Name:</label>
+                <input type="text" id="info-name" name="info-name" required>
+                <label for="info-email">Email:</label>
+                <input type="email" id="info-email" name="info-email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Techy Software</p>
+            <div class="social-media">
+                <a href="https://facebook.com/techysoftware"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/techysoftware"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/company/techysoftware"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
